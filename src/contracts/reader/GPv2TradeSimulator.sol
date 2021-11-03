@@ -51,7 +51,7 @@ contract GPv2TradeSimulator {
     /// One notable difference, is the simulation doesn't actually require an
     /// order. This makes using this method inaccurate for predicting gas usage
     /// for specific trades. However, seeing as computing trade executions is
-    /// completely independant of external contracts (i.e. it does not depend on
+    /// completely independent of external contracts (i.e. it does not depend on
     /// the tokens being traded or the interactions being executed) the gas
     /// consumption should be off by a predicatable amount.
     ///
